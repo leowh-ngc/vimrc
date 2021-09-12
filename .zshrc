@@ -71,11 +71,7 @@ ZSH_THEME="intheloop"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-	git 
-	zsh-autosuggestions
-	zsh-syntax-highlighting
-)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,6 +83,7 @@ bindkey '^[l' autosuggest-accept
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
+# export LANG=zh_CN.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
